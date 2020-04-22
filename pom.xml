@@ -58,11 +58,13 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18.1</version>
 				<configuration>
-					<includes>
-						<include>**/*TestRunner.java</include>
-					</includes>
+				
+					<suiteXmlFiles>
+					<suiteXmlFile>XML Files/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					
 				</configuration>
-			</plugin>
+			</plugin>	
 		</plugins>
 	</build>
 </project>

@@ -32,7 +32,7 @@ public class LoginTest extends BaseClass {
 		
 		loginpage.logintoprimusbank(Username,Password);
 		String Adminurl=driver.getTitle();
-		if(Adminurl.equalsIgnoreCase("Primus ank"))
+		if(Adminurl.equalsIgnoreCase("Primus Bank"))
 		{
 			Assert.assertTrue(true);
 			
