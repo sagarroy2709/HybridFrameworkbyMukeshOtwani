@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.learnautomation.testcases.LoginTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.learnautomation.testcases.LoginTest">
+        <methods>
+          <include name="teardownmethod"/>
+          <include name="teartown"/>
+          <include name="refreshtest"/>
+          <include name="SetupSuite"/>
+          <include name="setup"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
