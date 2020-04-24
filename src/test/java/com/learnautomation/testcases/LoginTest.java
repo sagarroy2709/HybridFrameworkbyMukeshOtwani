@@ -50,7 +50,7 @@ public class LoginTest extends BaseClass {
 		
 		logger=reports.createTest("THe Primus Bank Application started");
 		logger.info("Logout to PrimusBank Application");
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 		
 		
 		
